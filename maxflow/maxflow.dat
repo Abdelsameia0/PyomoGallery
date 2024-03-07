@@ -1,17 +1,13 @@
-set N := Zoo A B C D E Home;
-set A := (Zoo,A) (Zoo,B) (A,C) (A,D) (B,A) (B,C) (C,D) (C,E) (D,E) (D,Home) (E,Home);
+set N := 0 1 2 3 4;
+set A := (0,1) (0,3) (1,2) (2,3) (2,4) (3,4) (1,4);
 
-param s := Zoo;
-param t := Home;
+param s := 0;
+param t := 4;
 param: c :=
-Zoo A 11
-Zoo B 8
-A C 5
-A D 8
-B A 4
-B C 3
-C D 2
-C E 4
-D E 5
-D Home 8
-E Home 6;
+0 1 2
+0 3 1
+2 3 1
+3 4 2 
+2 4 2
+1 4 3
+1 2 4;

@@ -6,12 +6,12 @@
 # ----------------------------------------------------------
 Problem: 
 - Name: unknown
-  Lower bound: 14.0
-  Upper bound: 14.0
+  Lower bound: 3.0
+  Upper bound: 3.0
   Number of objectives: 1
-  Number of constraints: 17
-  Number of variables: 12
-  Number of nonzeros: 30
+  Number of constraints: 10
+  Number of variables: 7
+  Number of nonzeros: 16
   Sense: maximize
 # ----------------------------------------------------------
 #   Solver Information
@@ -24,7 +24,7 @@ Solver:
       Number of bounded subproblems: 0
       Number of created subproblems: 0
   Error rc: 0
-  Time: 0.00943398475647
+  Time: 0.029109477996826172
 # ----------------------------------------------------------
 #   Solution Information
 # ----------------------------------------------------------
@@ -36,28 +36,14 @@ Solution:
   Message: None
   Objective:
     total:
-      Value: 14
+      Value: 3
   Variable:
-    f[C,E]:
-      Value: 4
-    f[C,D]:
+    f[0,1]:
       Value: 2
-    f[Zoo,A]:
-      Value: 7
-    f[A,C]:
-      Value: 3
-    f[E,Home]:
-      Value: 6
-    f[B,A]:
-      Value: 4
-    f[D,Home]:
-      Value: 8
-    f[D,E]:
+    f[0,3]:
+      Value: 1
+    f[1,4]:
       Value: 2
-    f[B,C]:
-      Value: 3
-    f[Zoo,B]:
-      Value: 7
-    f[A,D]:
-      Value: 8
+    f[3,4]:
+      Value: 1
   Constraint: No values
