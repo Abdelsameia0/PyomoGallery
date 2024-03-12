@@ -1,3 +1,4 @@
+import logging
 import pyomo
 import pandas
 import pyomo.opt
